@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0f1d31dac8.js" crossorigin="anonymous"></script>
+    <head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+              <h1 ><span >P</span>urusharth.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#my-Projects">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-regular fa-bars" onclick="openmenu()"></i>
+               
+            </nav>
+            <div class="header-text">
+            <p>Hi I'm</p>
+            <h1><span>Purusharth</span><br>Vishnoi</h1>
+            <h2>a Frontend Developer.</h2>
+            <h4>CSS / Javascript / React / Python</h4>
+            <h3>Find me on</h3>
+            <div class="social-icon social-icon2">
+                 <a href="https://www.linkedin.com/in/purusharth-vishnoi-1aa1b0242/"  target="_blank" ><i class="fa-brands fa-linkedin"></i></a>
+                 <a href="https://twitter.com/PurusharthVish2"  target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                 <a href="https://github.com/purusharth1009"  target="_blank"><i class="fa-brands fa-github"></i></a>
+                 <a href="https://github.com/purusharth1009"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                 <a href=""><i class="fa-brands fa-facebook"  target="_blank"></i></a>
+            </div>
+            <a href="images/Noida uttarpradesh , INDIA.jpg" target="_blank" download class="btn btn2 btn3">Download Cv</a>
+        </div>
+    </div>
+    <div id="about">
+        <div id="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Untitled Project (4).jpg" alt="">
+                </div>
+                    <div class="about-col-2">
+                        <h1 class="sub">About Me</h1><br>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis esse, dolore rerum voluptates ipsa ad cumque earum iusto accusamus numquam perspiciatis consequatur odit impedit ducimus aspernatur nemo architecto qui Lorem ipsum dolor sit, amet consectetur
+                             adipisicing elit. Officiis esse, dolore rerum voluptates ipsa ad cumque earum iusto accusamus numquam perspiciatis consequatur odit impedit ducimus aspernatur nemo architecto qui </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certification')">Certification</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</br></span>Familiarity with development tools like browser Developer Tools for debugging and profiling.</li>
+                            <li><span>React</span><br>Understanding of React components, props, state, and lifecycle methods.</li>
+                            <li><span>Javascript</span><br>Knowledge of ES6+ features and modern JavaScript syntax /promises and Callback.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Jan-2023 to present</br></span>Promoted As Project Manager At Kickstart.</li>
+                            <li><span>May-2021 to Dec-2022</span><br>Area Sales Manager at Kickstart Vision to Reality Pvt Ltd.</li>
+    
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 to present</br></span>Aspiring Full Stack Web Developer from Masai</li>
+                            <li><span>2023 to present</span><br>Persuing Master in Computer Science<br></li>
+                            <li><span>2016</span><br>Bachelor of Science.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certification">
+                        <ul>
+                            <li><span>2019</br></span>'O' Level By NIELIT(DOEACC) </li>
+                            <li><span>2019</span><br>Course on Computer Concepts</li>
+                            
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-titles">My Services</h1>
+                <div class="service-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eveniet perferendis facilis iure, necessitatibus quisquam atque repudiandae debitis et blanditiis, consequatur hic. Iure officiis maxime recusandae fuga sint aperiam corrupti.</p>
+                    <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-react"></i>
+                    <h2>Web Dev</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eveniet perferendis facilis iure, necessitatibus quisquam atque repudiandae debitis et blanditiis, consequatur hic. Iure officiis maxime recusandae fuga sint aperiam corrupti.</p>
+                    <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-js"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eveniet perferendis facilis iure, necessitatibus quisquam atque repudiandae debitis et blanditiis, consequatur hic. Iure officiis maxime recusandae fuga sint aperiam corrupti.</p>
+                    <a href="#">Learn more</a>
+                    </div>
+            </div>
+            <a class="btn">See more</a>
+                </div>
+            </div>
+            <div id="my-Projects">
+                <div class="container">
+                    <h1 class="sub-titles">My Projects</h1>
+                    <div class="work-list">
+                        <div class="work">
+                           <img src="E:\Github portfolio\images\maxresdefault.jpg" >
+                           <div class="layer">
+                            <h3> Website</h3>
+                            <p>cloning of Carb Manager </p>
+                            <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                           </div>
+                        </div>
+                        <div class="work">
+                          <img src="E:\Github portfolio\images\5_tips_for_creating_a_great_website.jpg">
+                          <div class="layer">
+                            <h3>Website</h3>
+                            <p>Making website for better use </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                          </div>
+                        </div>
+                </div>
+                <a class="btn">See more</a>
+            </div>
+            </div>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                <div class="contact-left">
+                  
+                    <h1 class="sub-titles">Contact Me</h1>
+                   <p onclick="openGmail()"  ><i  class="fa-regular fa-envelope"></i>Vishnoipuru35@gmail.com</p>
+                     <p> <i class="fa-solid fa-square-phone"></i>+91 7017141469</p>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/purusharth-vishnoi-1aa1b0242/"  target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/PurusharthVish2"  target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://github.com/purusharth1009"  target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://github.com/purusharth1009"  target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                      
+                    </div>
+                    <a href="images/Noida uttarpradesh , INDIA.jpg" target="_blank" download class="btn btn2 btn3 btn4">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2 btn3">Submit</button>
+                </form>
+                <span id="msg"></span>
+                </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Purusharth. All Right Reserved<i class="fa-solid fa-heart"></i>Designed & Developed By Purusharth Vishnoi
+                </p>
+            </div>
+        </div>
+    
+    <script src="script.js"></script>
+
+
+</body>
+</html>
